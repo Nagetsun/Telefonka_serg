@@ -1,0 +1,156 @@
+title{
+    font-family: sans-serif;
+    color: #109FC1;
+}
+body{
+    background-color: black;
+    margin: auto;
+}
+main{
+    display: flex;
+    height: auto;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+p{
+    margin: 6px;
+    color: rgb(255, 255, 255);
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-block-start: unset;
+    margin-block-end: unset;
+    margin-inline-start: unset;
+    margin-inline-end: unset;
+    padding-inline-start: unset;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+li{
+    color: #fff;
+    list-style-type: none;
+}
+h1{
+    margin: auto;
+    color: #fff;
+    font-family: sans-serif
+}
+h2{
+    color: rgb(255, 255, 255);
+    margin: unset;
+}
+.logo_img{
+    width: 70px;
+    height: 70px;
+    background-size:contain;
+    background-image: url("header-logo-brain_0e858cde.png");
+}
+.logo{
+    width: 240px;
+    height: 50px;
+    margin-left: 10px;
+    background-size:contain;
+    background-image: url("header-logo-sokrat_07c2aa7a.png");
+}
+.Menu{
+    width: 120px;
+    height: 30px;
+    background-color: #109FC1;
+    border-radius: 20px;
+    border: none;
+    margin-top: 15px;
+}
+.x2_logo{
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+}
+.vopros{
+    position: absolute;
+    top: 0;
+    margin-top: 15px;
+    right: 0;
+    margin-right: 15px;
+}
+.img_vopros{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.block_osn{
+    border-radius: 20px 20px 20px 20px;
+    border-style: groove;
+    border-color: aqua;
+    display: flex;
+    height: 230px;
+    width: auto;
+    position: relative;
+    margin-top: 15px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.img_cards{
+    width: 200px;
+    height: 105px;
+    background-size: contain;
+}
+.magazin{
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.button_cards{
+    width: 110px;
+    height: 25px;
+    background-color: #109FC1;
+    border-radius: 20px;
+    border: none;
+    color: lemonchiffon;
+}
+.text_mani{
+    color: rgb(197, 44, 44);
+    font: 1em sans-serif;
+    font-size: 17px
+}
+ul>a{
+    display: flex;
+    height: 30px;
+    width: 180px;
+    background-color: #3f7ac7;
+    border-color:rgb(207 29 29);
+    border-width: 4px;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    border-radius: 15px 15px 15px 15px;
+    font: 1em sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    border-bottom-style: outset;
+    transition: all 1s ease;
+}
+ul>a:active{
+    border-width: 2px;
+    border-bottom-style: outset;
+    border-color:rgb(207 29 29);
+}
+.spisok_menu{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: auto;
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+}
